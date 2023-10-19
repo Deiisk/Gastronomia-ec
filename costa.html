@@ -8,26 +8,33 @@
         <link rel="icon" href="olmedo.ico">
     </head>
 <body>
-    <div class="indice">
-        <h2 class="h2indice">La gastronomía en Ecuador</h2>
-        <ul>
-            <li class="item">
-                <a href="index.html">Inicio</a>
-            </li>
-            <li class="item">
-                <a href="sierra.html">En la Sierra</a>
-            </li>
-            <li class="item">
-                <a href="amazonía.html">En la Amazonía</a>
-            </li>
-            <li class="item">
-                <a href="galápagos.html">En Galápagos</a>
-            </li>
-        </ul>
-    </div>
+    <header>
+        <h2 class="h2header">La Gastronomía en Ecuador</h2>
+        <nav>
+            <ul class="menu-horizontal">
+                <li>
+                    <a href="index.html">Inicio</a>
+                </li>
+                <li>
+                    <a href="#">Regiones</a>
+                    <ul class="menu-vertical">
+                        <li>
+                            <a href="sierra.html">Sierra</a>
+                        </li>
+                        <li>
+                            <a href="amazonía.html">Amazonía</a>
+                        </li>
+                        <li>
+                            <a href="galápagos.html">Galápagos</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </header>
     <div class="content">
 <h1 class="ph">La gastronomía en la Costa</h1>
-<img src="img\Costa.jpg" class="principalImg">
+<img src="img\costa.jpg" class="principalImg" alt="platos típicos de la costa">
 <p>La gastronomía costera del Ecuador es una de las más ricas y variadas del país, gracias a la abundancia de productos del 
 mar y de la tierra. Algunos de los ingredientes más usados en la cocina costeña son: el plátano verde, el maní, los 
 mariscos, el arroz, la yuca, el coco, el limón y el ají. A continuación, veremos algunos de los platos más representativos de 
@@ -36,29 +43,29 @@ la gastronomía costera del Ecuador:</p>
 <li>El encebollado
 <p>Una sopa de pescado con yuca y cebolla roja encurtida, que se sirve con limón, cilantro y ají. Es un plato típico de la 
 costa y se consume especialmente en el desayuno o como cura para la resaca.</p>
-<img src="img\encebollado.jpg" class="secondaryImg">
+<img src="img\encebollado.jpg" class="secondaryImg" alt="encebollado">
 <li>El ceviche
 <p>Un plato frío que consiste en marinar pescado o marisco en jugo de limón y naranja, con cebolla, tomate, cilantro y ají. 
 Se puede acompañar con chifles, maíz tostado o canguil. Hay diferentes tipos de ceviche según el marisco que se 
 use: de pescado, camarón, concha, pulpo, mixto o chancalagua (en Galápagos).</p>
-<img src="img\ceviche.jpg" class="secondaryImg">
+<img src="img\ceviche.jpg" class="secondaryImg" alt="ceviche">
 <li>El bolón de verde
 <p>Una bola de plátano verde machacado con queso, chicharrón o maní, que se fríe o se hornea. Se acompaña con café 
 o jugo de frutas. Es otro plato típico de la costa y se come en el desayuno o como bocadillo.</p>
-<img src="img\bolón de verde.jpg" class="secondaryImg">
+<img src="img\bolón de verde.jpg" class="secondaryImg" alt="bolón">
 <li>El encocado
 <p>Un guiso de pescado o marisco cocinado en leche de coco, con cebolla, ajo, pimiento, cilantro y especias. Se sirve con 
 arroz blanco o verde (plátano verde rallado y cocido). Es un plato típico de la costa, sobre todo de las provincias de 
 Esmeraldas y Manabí.</p>
-<img src="img\encocado.jpg" class="secondaryImg">
+<img src="img\encocado.jpg" class="secondaryImg" alt="encocado">
 <li>El bollo de pescado
 <p>Una masa de plátano verde rellena de pescado (corvina), maní y especias, que se envuelve en hojas de plátano y se 
 cocina al vapor. Se sirve con salsa de cebolla y tomate. Es otro plato típico de Manabí y se consume como bocadillo o como entrada.</p>
 <img src="img\bollo de pescado.jpg" class="secondaryImg">
 </ul>
-<input type="button" onclick="window.location.href='index.html'" value="&#x2B05;">
+<input class="left" type="button" onclick="window.location.href='index.html'" value="&#x2B05;">
 <input class="home" type="button" onclick="window.location.href='index.html'" value="Inicio">
-<input type="button" onclick="window.location.href='sierra.html'" value="&#x27A1;">
+<input class="right" type="button" onclick="window.location.href='sierra.html'" value="&#x27A1;">
     </div>
 </body>
 </html>
