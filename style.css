@@ -94,8 +94,7 @@ a:visited {
 	box-sizing: border-box;
 	font-family: 'Open Sans';
 }
-nav {
-	
+nav {
 	margin: auto;
 	background-color:#ffe5c3;
 	font-size: 20px;
@@ -113,7 +112,7 @@ nav {
 }
 .menu-horizontal > li > a {
 	display: block;
-	padding: 1vw 1.5vw;
+	padding: 1vw 1.5vw 15px;
 	color: #350804;
 	text-decoration: none;
 }
