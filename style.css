@@ -17,12 +17,14 @@ body {
 	height: 75%;
 	margin-top: 2.5vw;
 	margin-bottom: 2.5vw;
+	border-radius:35% 0 35% 0;
 }
 .secondaryImg {
 	width: 40%;
 	height: 40%;
 	margin-top: 2vw;
 	margin-bottom: 2vw;
+	border-radius:20% 0 20% 0;
 }
 .h2indice {
 	text-align: center;
@@ -31,21 +33,24 @@ body {
 	margin: 25px 0 25px 0;
 }
 .ph {
-	color: #350804; 
+	color: #5d0c04; 
 	font-size: 4vw;
 }
 p {
 	text-align: justify; 
 	font-size: 2vw;
+	color: #680c04;
 }
 h2 {
-	color:#350804; 
-	text-align: left; 
+	color:#781105; 
+
 	font-size: 3vw;
 }
-ul {
+.region {
 	text-align: justify;
-	list-style: none;
+	list-style: square;
+	margin-left: 5%;
+	color: #68120b;
 }
 li {
 	font-size: 2.8vw;
@@ -54,8 +59,7 @@ img {
 	display: block; 
 	margin-left: auto; 
 	margin-right: auto;
-	border-radius:30% 0 30% 0;
-	border: solid 1px #888A53;
+	border: solid 1px #9b5151;
 }
 #rght {
 	display: block; 
@@ -70,8 +74,11 @@ img {
 input {
 	display: inline-block;
 	border-radius: 5px;
-	border: solid 1px;
+	border: solid 1px #350804;
 	background-color: #dbdbc3;
+}
+input:hover {
+	background-color: #dbd1c3;
 }
 a {
 	color: #7b0e04;
@@ -94,7 +101,8 @@ a:visited {
 	box-sizing: border-box;
 	font-family: 'Open Sans';
 }
-nav {
+nav {
+	
 	margin: auto;
 	background-color:#ffe5c3;
 	font-size: 20px;
@@ -112,7 +120,7 @@ nav {
 }
 .menu-horizontal > li > a {
 	display: block;
-	padding: 1vw 1.5vw 15px;
+	padding: 1vw 1.5vw;
 	color: #350804;
 	text-decoration: none;
 }
@@ -143,7 +151,7 @@ nav {
 }
 header {
 	margin-bottom: 25px;
-	padding-bottom: 15px;
+	padding-bottom: 1.3vw;
 	background-color: #ffe5c3;
 	width: 100%;
 	margin: -20px -20px 0 -20px;
